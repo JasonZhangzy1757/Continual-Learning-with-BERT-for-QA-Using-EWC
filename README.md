@@ -17,7 +17,8 @@ Results for the experiments are listed in table 1. The baseline shows without an
 
 In the meanwhile, we compare the severity of catastrophic forgetting between text classification and Q&A.  BERT performs poorly on text classification when a new dataset is added with accuracy near 0. However, the baseline model performs much better in Q&A with a decrease by 13% which still has an F1 score over 70. This indicates BERT itself suffers less catastrophic forgetting in QA domain. 
 
-[img](https://github.com/JasonZhangzy1757/NLU_Final_Project/blob/master/result.png)
+![img](https://github.com/JasonZhangzy1757/NLU_Final_Project/blob/master/result.png)
+
 To conclude, in this research, we propose a continual learning approach EWC to solve the catastrophic forgetting problem in QA domain. Our research highlights that EWC can reduce catastrophic forgetting. Our research also shows BERT suffers less catastrophic forgetting in QA problems compared with text classification problems. Future work includes adding multiple tasks with different sequences to analyze the influence of sequence of tasks, and using different regularization methods to compare the performance of reducing catastrophic forgetting with EWC.
 
 
