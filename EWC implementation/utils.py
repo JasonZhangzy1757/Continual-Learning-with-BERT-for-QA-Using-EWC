@@ -60,9 +60,3 @@ def eta(start, completed, total):
 
     return user_friendly_time(remaining_time)
 
-
-def kl_coef(i):
-    # coef for KL annealing
-    # reaches 1 at i = 22000
-    # https://github.com/kefirski/pytorch_RVAE/blob/master/utils/functional.py
-    return (math.tanh((i - 3500) / 1000) + 1) / 2
