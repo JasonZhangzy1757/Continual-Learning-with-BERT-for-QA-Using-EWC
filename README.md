@@ -1,4 +1,4 @@
-# Continual Learning with BERT for Questions and Answers
+# Continual Learning with BERT for Questions and Answers Using Elastic Weight Consolidation
 This is the final project for GA-DS 1012 Natural Language Understanding course at NYU. We plan to implement continual learning with BERT over questions and answers tasks using Elastic Weights Consolidation (EWC).
 
 ## The Baseline model
